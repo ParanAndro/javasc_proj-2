@@ -1,8 +1,5 @@
-//linear comment about alert('thank you');
-alert('Thank you!, ' + name);
-/*
-	block comment
-	alert('Thank you!, ' + name) - comment;
-*/
-//second linear comment;
-
+// scripts.js
+var a = 9,
+	h = 12,
+	triangleArea = a * h / 2;
+console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
